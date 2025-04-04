@@ -7,4 +7,6 @@ mongodb+srv://<db_username>:<db_password>@cluster0.h4stoqs.mongodb.net/?retryWri
 maneomkar2004
 blTCFCT9fZmU4Pp8
 
-mongodb+srv://maneomkar2004:<db_password>@cluster0.rsxiljg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+mongodb+srv://maneomkar2004:blTCFCT9fZmU4Pp8@cluster0.rsxiljg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+set: $env:MONGODB_URL = "mongodb+srv://maneomkar2004:blTCFCT9fZmU4Pp8@cluster0.rsxiljg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
