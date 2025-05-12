@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 artifact
 config
 logs
@@ -6,3 +7,7 @@ src
 static
 templates
 venv
+=======
+config
+src
+>>>>>>> a6ce4c64848bc0f26c15da8c7bfa6cc482cceed2

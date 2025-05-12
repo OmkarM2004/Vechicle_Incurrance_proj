@@ -5,6 +5,7 @@ from dataclasses import dataclass
 class DataIngestionArtifact:
     trained_file_path:str 
     test_file_path:str
+<<<<<<< HEAD
 
 @dataclass
 class DataValidationArtifact:
@@ -41,3 +42,5 @@ class ModelEvaluationArtifact:
 class ModelPusherArtifact:
     bucket_name:str
     s3_model_path:str
+=======
+>>>>>>> a6ce4c64848bc0f26c15da8c7bfa6cc482cceed2
