@@ -21,8 +21,7 @@ class DataIngestionConfig:
     training_file_path: str = os.path.join(data_ingestion_dir, DATA_INGESTION_INGESTED_DIR, TRAIN_FILE_NAME)
     testing_file_path: str = os.path.join(data_ingestion_dir, DATA_INGESTION_INGESTED_DIR, TEST_FILE_NAME)
     train_test_split_ratio: float = DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO
-<<<<<<< HEAD
-    collection_name:str = DATA_INGESTION_COLLECTION_NAME
+    collection_name: str = DATA_INGESTION_COLLECTION_NAME
 
 @dataclass
 class DataValidationConfig:
@@ -68,6 +67,3 @@ class ModelPusherConfig:
 class VehiclePredictorConfig:
     model_file_path: str = MODEL_FILE_NAME
     model_bucket_name: str = MODEL_BUCKET_NAME
-=======
-    collection_name:str = DATA_INGESTION_COLLECTION_NAME
->>>>>>> a6ce4c64848bc0f26c15da8c7bfa6cc482cceed2
