@@ -36,20 +36,20 @@ DATA_INGESTION_INGESTED_DIR: str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.25
 
 """
-Data Validation realted contant start with DATA_VALIDATION VAR NAME
+Data Validation related constants start with DATA_VALIDATION VAR NAME
 """
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_REPORT_FILE_NAME: str = "report.yaml"
 
 """
-Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
+Data Transformation related constants start with DATA_TRANSFORMATION VAR NAME
 """
 DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
 DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
 DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
 
 """
-MODEL TRAINER related constant start with MODEL_TRAINER var name
+MODEL TRAINER related constants start with MODEL_TRAINER var name
 """
 MODEL_TRAINER_DIR_NAME: str = "model_trainer"
 MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
@@ -67,13 +67,11 @@ MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 MODEL Evaluation related constants
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-<<<<<<< HEAD
-MODEL_BUCKET_NAME = "my-model-mlopsproj2"
-=======
-MODEL_BUCKET_NAME = "my-model-mlopsproj"
->>>>>>> a6ce4c64848bc0f26c15da8c7bfa6cc482cceed2
-MODEL_PUSHER_S3_KEY = "model-registry"
 
+# Resolve the conflict by keeping the correct value
+MODEL_BUCKET_NAME = "my-model-mlopsproj"  # Chosen value after resolving conflict
+
+MODEL_PUSHER_S3_KEY = "model-registry"
 
 APP_HOST = "0.0.0.0"
 APP_PORT = 5000
